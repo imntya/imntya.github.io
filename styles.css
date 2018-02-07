@@ -1,63 +1,82 @@
-<!doctype html>
-<html>
-<head>
-<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Raleway|Roboto|Roboto+Slab" rel="stylesheet">
-<style>
-	body {
-	    font-family: "Roboto Slab";
-	}
 
-    p {
-        font-family: "Roboto"; sans-serif;
-    }
-	h1 {
-	    color: grey;
-	    text-align: center;
- 	    font-family: "Roboto Slab";
-	}
-
-	h3 {
-		font-family: "Roboto Slab";
-		text-align: center;
-		color: darkgray;
-	}
-
-	h2, h4 {
-	    text-align: left;
-	    font-family: "Roboto Slab";
-	}
-
-	img {
-	    display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	    width: 40%;
-    }
-
-    #nav{
-        font-family: "Roboto";
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #888;
-        display: block;
-    }
-
-    li a {
-        float: left;
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+body {
+    font-family: "Roboto Slab";
+    margin: 30%;
+    padding: 30%;
 }
-	
+
+p {
+    font-family: "Roboto";
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+    font-family: "Roboto Slab";
+}
+
+h3 {
+    font-family: "Roboto Slab";
+    text-align: center;
+    color: darkgray;
+}   
     
-	
-</style>
-</head>
-</html>
+h2, h4 {
+    text-align: left;
+    font-family: "Roboto Slab";
+}
+
+h2 {
+    color: darkgrey;
+	   }
+h4  {
+    font-style: oblique;
+}       
+    
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+        }
+
+#nav{
+    font-family: "Roboto";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #888;
+    display: block;
+        }
+
+div.text{
+    max-width: 800px;
+    margin: auto;
+    }
+
+li{
+    font-family: "Roboto";
+}   
+
+li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+}      
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+    
+
 
 /* this is how to comment on css stuff */
 
@@ -74,7 +93,5 @@ ID selector: starts with a `#`, should only be used once
 
 CLASS selector starts with a `.`
 	applies to html aelement with `class` attribute
-
-
 
 */

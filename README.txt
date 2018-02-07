@@ -2,9 +2,6 @@ Isabella Montoya
 imonto01
 imntya.github.io
 
-Each assignment and lab shall include a README file that describes the work. This description must:
-
-1. Identify what aspects of the work have been correctly implemented and what have not.
-2. Identify anyone with whom you have collaborated or discussed the assignment.
-3. Say approximately how many hours you have spent completing the assignment.
-4. Be written in either text format (README.txt) or in Markdown (README.md). No other formats will be accepted. Please use all capital letters for README
+1. All aspects of the project have been correctly implemented. 
+2. Spokee with Lexi Walker and Nimish Adhikari about the connecting to the network/linking the github and tufts.cs, and the CSS.
+3. Spent around 6 to 7 hours playing around and finalizing this project. 
